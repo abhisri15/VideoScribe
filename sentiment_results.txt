@@ -1,0 +1,270 @@
+Text: Smoke from hundreds of wildfires in Canada is triggering air quality alerts throughout the US.
+Sentiment: SentimentType.negative
+Confidence: 0.8181032538414001
+Timestamp: 00:00:00 - 00:00:06
+
+Text: Skylines from Maine to Maryland to Minnesota are gray and smoggy.
+Sentiment: SentimentType.negative
+Confidence: 0.5900681018829346
+Timestamp: 00:00:06 - 00:00:11
+
+Text: And in some places, the air quality warnings include the warning to stay inside.
+Sentiment: SentimentType.neutral
+Confidence: 0.5371454358100891
+Timestamp: 00:00:11 - 00:00:15
+
+Text: We wanted to better understand what's happening here and why, so we called Peter DiCarlo, an associate professor in the department of Environmental Health and Engineering at Johns Hopkins University.
+Sentiment: SentimentType.neutral
+Confidence: 0.7866001129150391
+Timestamp: 00:00:15 - 00:00:25
+
+Text: Good morning.
+Sentiment: SentimentType.positive
+Confidence: 0.7193589210510254
+Timestamp: 00:00:25 - 00:00:26
+
+Text: Professor good morning.
+Sentiment: SentimentType.positive
+Confidence: 0.7561111450195312
+Timestamp: 00:00:26 - 00:00:28
+
+Text: So what is it about the conditions right now that have caused this round of wildfires to affect so many people so far away?
+Sentiment: SentimentType.negative
+Confidence: 0.7462095022201538
+Timestamp: 00:00:29 - 00:00:37
+
+Text: Well, there's a couple of things.
+Sentiment: SentimentType.neutral
+Confidence: 0.7348890900611877
+Timestamp: 00:00:39 - 00:00:40
+
+Text: The season has been pretty dry already, and then the fact that we're getting hit in the US is because there's a couple of weather systems that are essentially channeling the smoke from those canadian wildfires through Pennsylvania into the mid Atlantic and the northeast and kind of just dropping the smoke there.
+Sentiment: SentimentType.negative
+Confidence: 0.631051242351532
+Timestamp: 00:00:40 - 00:00:56
+
+Text: So what is it in this haze that makes it harmful?
+Sentiment: SentimentType.negative
+Confidence: 0.8751139044761658
+Timestamp: 00:00:56 - 00:00:59
+
+Text: And I'm assuming it is.
+Sentiment: SentimentType.neutral
+Confidence: 0.790163516998291
+Timestamp: 00:00:59 - 00:01:00
+
+Text: Is it is.
+Sentiment: SentimentType.neutral
+Confidence: 0.6323779821395874
+Timestamp: 00:01:02 - 00:01:03
+
+Text: The levels outside right now in Baltimore are considered unhealthy.
+Sentiment: SentimentType.negative
+Confidence: 0.9444373846054077
+Timestamp: 00:01:03 - 00:01:07
+
+Text: And most of that is due to what's called particulate matter, which are tiny particles, microscopic, smaller than the width of your hair, that can get into your lungs and impact your respiratory system, your cardiovascular system, and even your neurological, your brain.
+Sentiment: SentimentType.negative
+Confidence: 0.7673307061195374
+Timestamp: 00:01:07 - 00:01:22
+
+Text: What makes this particularly harmful?
+Sentiment: SentimentType.negative
+Confidence: 0.9329690933227539
+Timestamp: 00:01:23 - 00:01:25
+
+Text: Is it the volume of particulate?
+Sentiment: SentimentType.neutral
+Confidence: 0.8246212601661682
+Timestamp: 00:01:25 - 00:01:28
+
+Text: Is it something in particular?
+Sentiment: SentimentType.neutral
+Confidence: 0.8175229430198669
+Timestamp: 00:01:28 - 00:01:29
+
+Text: What is it exactly?
+Sentiment: SentimentType.neutral
+Confidence: 0.815334141254425
+Timestamp: 00:01:29 - 00:01:30
+
+Text: Can you just drill down on that a little bit more?
+Sentiment: SentimentType.neutral
+Confidence: 0.8712159991264343
+Timestamp: 00:01:30 - 00:01:32
+
+Text: Yeah.
+Sentiment: SentimentType.neutral
+Confidence: 0.5491449236869812
+Timestamp: 00:01:33 - 00:01:33
+
+Text: So the concentration of particulate matter I was looking at, some of the monitors that we have was reaching levels of what are, in science speak, 150 micrograms per meter cubed, which is more than ten times what the annual average should be and about four times higher than what you're supposed to have on a 24 hours average.
+Sentiment: SentimentType.neutral
+Confidence: 0.6399092078208923
+Timestamp: 00:01:33 - 00:01:53
+
+Text: And so the concentrations of these particles in the air are just much, much higher than we typically see.
+Sentiment: SentimentType.neutral
+Confidence: 0.5178466439247131
+Timestamp: 00:01:53 - 00:01:59
+
+Text: And exposure to those high levels can lead to a host of health problems.
+Sentiment: SentimentType.negative
+Confidence: 0.9395254254341125
+Timestamp: 00:01:59 - 00:02:03
+
+Text: And who is most vulnerable?
+Sentiment: SentimentType.neutral
+Confidence: 0.5373413562774658
+Timestamp: 00:02:03 - 00:02:04
+
+Text: I noticed that in New York City, for example, they're canceling outdoor activities.
+Sentiment: SentimentType.negative
+Confidence: 0.7793571949005127
+Timestamp: 00:02:05 - 00:02:08
+
+Text: And so here it is in the early days of summer, and they have to keep all the kids inside.
+Sentiment: SentimentType.neutral
+Confidence: 0.4853214919567108
+Timestamp: 00:02:08 - 00:02:12
+
+Text: So who tends to be vulnerable in a situation like this?
+Sentiment: SentimentType.neutral
+Confidence: 0.5655254125595093
+Timestamp: 00:02:12 - 00:02:16
+
+Text: It's the youngest.
+Sentiment: SentimentType.neutral
+Confidence: 0.7843365669250488
+Timestamp: 00:02:17 - 00:02:18
+
+Text: So children, obviously, whose bodies are still developing, the elderly who know their bodies are more in decline and they're more susceptible to the health impacts of breathing, the poor air quality.
+Sentiment: SentimentType.negative
+Confidence: 0.9147288799285889
+Timestamp: 00:02:18 - 00:02:29
+
+Text: And then people who have preexisting health conditions, people with respiratory conditions or heart conditions, can be triggered by high levels of air pollution.
+Sentiment: SentimentType.negative
+Confidence: 0.8811352849006653
+Timestamp: 00:02:30 - 00:02:36
+
+Text: Could this get worse?
+Sentiment: SentimentType.negative
+Confidence: 0.9435272216796875
+Timestamp: 00:02:37 - 00:02:38
+
+Text: That's a good, in some areas it's much worse than others, and it just depends on kind of where the smoke is concentrated.
+Sentiment: SentimentType.negative
+Confidence: 0.5204632878303528
+Timestamp: 00:02:42 - 00:02:50
+
+Text: I think New York has some of the higher concentrations right now, but that's going to change as that air moves away from the New York area.
+Sentiment: SentimentType.neutral
+Confidence: 0.7581232786178589
+Timestamp: 00:02:50 - 00:02:56
+
+Text: But over the course of the next few days, we will see different areas being hit at different times with the highest concentrations.
+Sentiment: SentimentType.neutral
+Confidence: 0.7974405884742737
+Timestamp: 00:02:57 - 00:03:03
+
+Text: I was going to ask you more fires start burning.
+Sentiment: SentimentType.neutral
+Confidence: 0.5798443555831909
+Timestamp: 00:03:03 - 00:03:05
+
+Text: I don't expect the concentrations to go up too much higher.
+Sentiment: SentimentType.neutral
+Confidence: 0.5720195174217224
+Timestamp: 00:03:05 - 00:03:09
+
+Text: I was going to ask you, and you started to answer this, but how much longer could this last?
+Sentiment: SentimentType.neutral
+Confidence: 0.6129592657089233
+Timestamp: 00:03:09 - 00:03:13
+
+Text: Or, forgive me if I'm asking you to speculate, but what do you think?
+Sentiment: SentimentType.neutral
+Confidence: 0.6979454159736633
+Timestamp: 00:03:13 - 00:03:16
+
+Text: Well, I think the fires are going to burn for a little bit longer, but the key for us in the US is the weather system changing.
+Sentiment: SentimentType.neutral
+Confidence: 0.6709005236625671
+Timestamp: 00:03:18 - 00:03:23
+
+Text: And so right now it's kind of the weather systems that are pulling that air into our mid Atlantic and northeast region.
+Sentiment: SentimentType.neutral
+Confidence: 0.8217786550521851
+Timestamp: 00:03:23 - 00:03:31
+
+Text: As those weather systems change and shift, we'll see that smoke going elsewhere and not impact us in this region as much.
+Sentiment: SentimentType.neutral
+Confidence: 0.6655179858207703
+Timestamp: 00:03:31 - 00:03:39
+
+Text: And so I think that's going to be the defining factor.
+Sentiment: SentimentType.neutral
+Confidence: 0.6444756388664246
+Timestamp: 00:03:39 - 00:03:41
+
+Text: And I think the next couple of days we're going to see a shift in that weather pattern and start to push the smoke away from where we are.
+Sentiment: SentimentType.neutral
+Confidence: 0.8290640115737915
+Timestamp: 00:03:41 - 00:03:47
+
+Text: And finally, with the impacts of climate change, we are seeing more wildfires.
+Sentiment: SentimentType.negative
+Confidence: 0.696441113948822
+Timestamp: 00:03:47 - 00:03:52
+
+Text: Will we be seeing more of these kinds of wide ranging air quality consequences or circumstances?
+Sentiment: SentimentType.neutral
+Confidence: 0.5142847299575806
+Timestamp: 00:03:52 - 00:04:00
+
+Text: I mean, that is one of the predictions for climate change.
+Sentiment: SentimentType.neutral
+Confidence: 0.6701288223266602
+Timestamp: 00:04:01 - 00:04:05
+
+Text: Looking into the future, the fire season is starting earlier and lasting longer, and we're seeing more frequent fires.
+Sentiment: SentimentType.neutral
+Confidence: 0.4755036532878876
+Timestamp: 00:04:05 - 00:04:11
+
+Text: So, yeah, this is probably something that we'll be seeing more frequently.
+Sentiment: SentimentType.neutral
+Confidence: 0.6273226141929626
+Timestamp: 00:04:11 - 00:04:15
+
+Text: This tends to be much more of an issue in the western US.
+Sentiment: SentimentType.neutral
+Confidence: 0.5745823979377747
+Timestamp: 00:04:15 - 00:04:18
+
+Text: So the eastern us getting hit right now is a little bit new.
+Sentiment: SentimentType.neutral
+Confidence: 0.6621608138084412
+Timestamp: 00:04:18 - 00:04:21
+
+Text: But, yeah, I think with climate change moving forward, this is something that is going to happen more frequently.
+Sentiment: SentimentType.neutral
+Confidence: 0.6574889421463013
+Timestamp: 00:04:22 - 00:04:27
+
+Text: That's Peter DiCarlo, associate professor in the department of Environmental Health and engineering at Johns Hopkins University.
+Sentiment: SentimentType.neutral
+Confidence: 0.909145176410675
+Timestamp: 00:04:27 - 00:04:35
+
+Text: Thanks so much for joining us and sharing this expertise with us.
+Sentiment: SentimentType.positive
+Confidence: 0.9816086888313293
+Timestamp: 00:04:35 - 00:04:38
+
+Text: Thank you for having me.
+Sentiment: SentimentType.positive
+Confidence: 0.9709058403968811
+Timestamp: 00:04:39 - 00:04:40
+

@@ -1,0 +1,11 @@
+runtime: python39
+entrypoint: gunicorn -b :$PORT app:app
+
+env_variables:
+  YOUR_HF_API_TOKEN: "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"
+
+handlers:
+- url: /.*
+  script: auto
+
+instance_class: F4_1G
