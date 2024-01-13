@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transcription and Sentiment Analysis Result</title>
+</head>
+<body>
+
+<h1>Transcription and Sentiment Analysis Result</h1>
+
+{% if result_data %}
+    {% for item in result_data %}
+        <p>
+            <strong>{{ item['speaker'] }} ({{ item['start'] }} - {{ item['end'] }}):</strong> {{ item['transcription'] }}
+        </p>
+        <p>
+            <strong>Sentiment:</strong> {{ item['sentiment'] }}
+            <br>
+            <strong>Confidence:</strong> {{ item['confidence'] }}
+        </p>
+        <button onclick="seekTo('{{ item['start'] }}')">Seek to {{ item['start'] }}</button>
+    {% endfor %}
+{% endif %}
+
+{% if summary %}
+    <h2>Summary:</h2>
+    <p id="summaryText">{{ summary }}</p>
+    <button onclick="toggleSummary()">Toggle Summary</button>
+{% endif %}
+
+{% if sentiment_results %}
+    <h2>Sentiments:</h2>
+    <ul id="sentimentsList">
+        {% for sentiment in sentiment_results %}
+            <li>
+                <p>
+                    <strong>Text:</strong> {{ sentiment['text'] }}
+                </p>
+                <p>
+                    <strong>Sentiment:</strong> {{ sentiment['sentiment'] }}
+                    <br>
+                    <strong>Confidence:</strong> {{ sentiment['confidence'] }}
+                </p>
+            </li>
+        {% endfor %}
+    </ul>
+    <button onclick="toggleSentiments()">Toggle Sentiments</button>
+{% endif %}
+
+{% if video_file %}
+    <h2>Video:</h2>
+    <video id="videoPlayer" width="640" height="360" controls>
+        <source src="{{ url_for('video') }}" type="audio/mp3">
+        Your browser does not support the audio tag.
+    </video>
+
+    <script>
+        function seekTo(timestamp) {
+            const [hours, minutes, seconds] = timestamp.split(':').map(parseFloat);
+            const totalSeconds = hours * 3600 + minutes * 60 + seconds;
+            document.getElementById('videoPlayer').currentTime = totalSeconds;
+        }
+
+        function toggleSummary() {
+            const summaryText = document.getElementById('summaryText');
+            summaryText.style.display = (summaryText.style.display === 'none') ? 'block' : 'none';
+        }
+
+        function toggleSentiments() {
+            const sentimentsList = document.getElementById('sentimentsList');
+            sentimentsList.style.display = (sentimentsList.style.display === 'none') ? 'block' : 'none';
+        }
+    </script>
+{% endif %}
+
+</body>
+</html>

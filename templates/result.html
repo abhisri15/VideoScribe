@@ -1,0 +1,34 @@
+<!-- result.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+</head>
+<body>
+    <h1>Transcription and Diarization Result</h1>
+
+    {% if result %}
+        <table border="1">
+            <tr>
+                <th>Speaker</th>
+                <th>Start</th>
+                <th>End</th>
+                <th>Transcription</th>
+            </tr>
+            {% for item in result %}
+                <tr>
+                    <td>{{ item.speaker }}</td>
+                    <td>{{ "%.2f"|format(item.start) }}</td>
+                    <td>{{ "%.2f"|format(item.end) }}</td>
+                    <td>{{ item.transcription }}</td>
+                </tr>
+            {% endfor %}
+        </table>
+    {% else %}
+        <p>No result available</p>
+    {% endif %}
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transcription Result</title>
+</head>
+<body>
+    <h1>Transcription Result</h1>
+
+    {% if result %}
+        <h2>Speaker Transcriptions:</h2>
+        {% for item in result %}
+            <p><strong>Speaker {{ item.speaker }}:</strong> {{ item.transcription }}</p>
+
+            {% if loop.index0 < sentiment_results|length %}
+                <h3>Sentiment Analysis:</h3>
+                <p><strong>Sentiment Type:</strong> {{ sentiment_results[loop.index0].sentiment }}</p>
+                <p><strong>Confidence:</strong> {{ sentiment_results[loop.index0].confidence }}</p>
+                <p><strong>Timestamp:</strong> {{ sentiment_results[loop.index0].timestamp }}</p>
+                <hr>
+            {% endif %}
+
+        {% endfor %}
+    {% else %}
+        <p>No transcription result available</p>
+    {% endif %}
+
+</body>
+</html>
